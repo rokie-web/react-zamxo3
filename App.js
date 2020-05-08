@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react'
 
-class App extends Component {
-  constructor() {
-    super();
-  }
+import Header from './Header'
+import MemeGenerator from './MemeGenerator'
 
-  render() {
-    return(
-      <h1>Test</h1>
-    )
-  }
+function App() {
+  return (
+    <main>
+      <Header />
+      <MemeGenerator />
+    </main>
+  )
 }
 
-export default App;
+export default App
